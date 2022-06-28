@@ -23,6 +23,7 @@
   <ol>
     <li><a href="#about-the-project">About the Project</a></li>
     <li><a href="#tech-stack">Tech Stack</a></li>
+    <li><a href="#installation">Installation</a></li>
     <li><a href="#how-to-contribute">How to Contribute</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#acknowledgments-and-contact">Acknowledgments and Contact</a></li>
@@ -73,6 +74,54 @@ Frameworks & libraries used:
 Version control & deployment
 * [GitHub](https://github.com/RebeccaL23/trace)
 * [Heroku](https://trace-game.herokuapp.com/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- INSTALLATION -->
+
+## Installation
+
+#### Setup
+
+0. In order to run our app locally, you will need to have already installed Yarn and Rails. Check them with:
+  
+
+```
+$ yarn -v
+$ rails --version
+```
+
+If no version number is returned, please install [Yarn](https://classic.yarnpkg.com/en/docs/install) and/or [Rails](https://guides.rubyonrails.org/v5.0/getting_started.html) before continuing.
+
+#### Dependencies
+
+1. You'll also need to install all dependencies of the project with:
+```
+$ bundle install && yarn install
+```
+
+The `bundle` command installs all Ruby Gems specified in our Gemfile. The `yarn install` command retrieves all dependencies from the project’s package.json file.
+<br> 
+<br>
+
+2. Run the following command to create a database, load the schema, and initialize it with our seed data.
+```
+$ rails db:create db:migrate db:seed
+```
+ 
+#### Launch 🚀
+
+Finally! Lets launch the app by running:
+
+```
+$ rails s
+```
+
+```
+$ yarn build --watch
+```
+
+Then go to [localhost:3000](http://localhost:3000/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
