@@ -79,7 +79,7 @@
 
         <br>
 
-        <h4 class='review-headings'>All other reviews</h4>
+        <h4 class='review-headings-all'>All other reviews</h4>
         <div class='all-reviews'>
           <% @reviews.sort_by { |el| -el[:id] }.slice(3...).each do |review| %>
             <div class="review-list">

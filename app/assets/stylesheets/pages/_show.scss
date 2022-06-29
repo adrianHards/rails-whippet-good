@@ -67,9 +67,6 @@
   position: relative;
   background: #fff;
   border-radius: 10px;
-  // h4{
-  //   margin-top: 16px;
-  // }
 }
 .booking-form{
   border-radius: 5px;
@@ -129,18 +126,39 @@
 .review-headings{
   width: 100%;
 }
+.review-headings-all{
+  width: 100%;
+}
 
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
-  .cards {
+  .dog-details{
+    display: inline;
+  }
+  .dog-photo{
+  height: 365px;
+  }
+  .profile-left-top{
+    display: block;
+  }
+  .recent-reviews{
     grid-template-columns: 1fr;
   }
+  .review-card{
+    margin-bottom: 8px;
+  }
+  .review-headings-all {
+    display: none;
+  }
+  .all-reviews {
+    display: none;
+}
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
   .cards {
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr  1fr;
   }
 }
 
@@ -148,5 +166,19 @@
 @media (min-width: 768px) {
   .cards {
     grid-template-columns: 1fr 1fr  1fr;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
