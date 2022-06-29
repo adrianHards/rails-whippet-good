@@ -191,6 +191,9 @@
   .cards {
     grid-template-columns: 1fr;
   }
+  .page-container{
+    min-height: 168vh;
+  }
 }
 
 // Small devices (landscape phones, 576px and up)
