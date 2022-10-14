@@ -72,8 +72,8 @@ Frameworks & libraries used:
 * [Bootstrap](https://getbootstrap.com/)
 
 Version control & deployment
-* [GitHub](https://github.com/RebeccaL23/trace)
-* [Heroku](https://trace-game.herokuapp.com/)
+* [GitHub](https://github.com/adrianHards/whippet-good)
+* [Heroku](https://whippet-good.herokuapp.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
